@@ -1,0 +1,120 @@
+:root{
+    --pink:#F8D9D1;
+    --bebe:#ED462F;
+}
+
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    font-family: 'Arial', Times, serif;
+    color: var(--bebe);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .logo{
+    margin-left: 5px;
+    color:#ED462F ;
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a{
+    text-decoration:none;
+    color:#ED462F;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color:#E9B000;
+}
+
+.img mobile{
+   height:30px;
+   margin-top: 15px;
+   margin-bottom: 15px; 
+}
+
+.apresentacao{
+    font-size:16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/blabla.jpg');
+    background-repeat: no-repeat;
+
+    height:400px;
+    background-size: cover;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.apresentacao .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.descricao:hover{
+    color:#ED462F ;
+}
+
+.titulo{
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.titulo:hover{
+    color:#E9B000;
+}
+
+.botaozinho{
+    background-color: #E9B000;
+    border: 1px;
+    color: black;
+    border-color: #ED462F;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-left: 15px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botaozinho:hover{
+    background-color: #ED462F;
+    color: black;
+    border: 1px;
+    border-color:#ED462F ;
+}
+
+.botaozinho i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.apresentacao .container{
+    width: 70%;
+}
+
+
+
+
+
